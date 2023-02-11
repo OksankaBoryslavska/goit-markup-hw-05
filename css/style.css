@@ -11,6 +11,7 @@
   --background-img-projekt: #eeeeee;
   --fil-icon-color: #afb1b8;
   --grid-item: 4;
+  --header-line: #ececec;
 }
 *,
 *::before,
@@ -96,7 +97,6 @@ body {
 .nav-list {
   list-style: none;
   display: flex;
-  margin-left: 93px;
   gap: 46px;
 }
 
@@ -707,12 +707,6 @@ body {
 }
 .project-list-img {
   width: 370px;
-  display: block;
-  margin: 0;
-  column-gap: 24px;
-  row-gap: 48px;
-  /* margin-right: 24px;
-  margin-bottom: 48px; */
 }
 
 .project-example {
